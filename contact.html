@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Information</title>
+  </head>
+  <body>
+    <h1>Contact Information</h1>
+    <ol>
+      <li>clowbel@gmail.com</li>
+      <li>+1-829-729-3213</li>
+      <li><a href="https://www.instagram.com/clowbel/">instagram.com/clowbel</a></li>
+    </ol>
+    <hr>
+    <form action="mailto:clowbel@gmail.com" method="post" enctype="text/plain">
+      <!--aqui en form borramos la parte que dice class y agregamos otro atributo
+        enctype y especificamos que nuestro website esta codificado en utf-8.
+        La data en nuestra forma se pondra en plane text.-->
+      <label>Your Name:</label>
+      <input type="text" name="yourname" value=""><br>
+      <!--Otra cosa que debemos hacer es agregar un valor a todos esos Name
+        atributos porque eso identificara la data que esta dentro de todos
+        esos inputs-->
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value=""><br>
+      <label>Your Message:</label><br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
